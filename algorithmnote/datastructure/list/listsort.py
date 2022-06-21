@@ -19,10 +19,18 @@ print(b)
 print(b_sorted)
 print(b_reversed)
 
-
+# lambda를 활용
+# lambda = 함수의 간탄한 형태
+#
+# def func(x):      =   lambda x:x+10
+#   return x + 10
+#
 # tuple list의 활용
 tuple_list = [('lee', 55), ('kim', 12), ('park', 25)]
 
 tuple_list.sort(key=lambda item: item[1])
 
 print(tuple_list)
+
+reverse_list = sorted(tuple_list, key=lambda x: x[1], reverse=True)
+print(reverse_list)
