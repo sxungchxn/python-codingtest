@@ -1,5 +1,5 @@
 # 특정 노드에서 다른 노드로의 최소거리를 알려주는 알고리즘 + 힙사용
-# 시간복잡도 : O(N * log(N))
+# 시간복잡도 : O(E * log(V))
 
 import sys
 import heapq
